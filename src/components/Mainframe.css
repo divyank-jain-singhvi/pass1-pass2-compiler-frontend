@@ -1,0 +1,31 @@
+.code-block{
+    width: 44vw;
+    height: 80vh;
+    background-color: rgb(0, 0, 0);
+    outline: 6px solid rgb(0, 0, 0);
+    border-radius: 3px;
+}
+.code-output{
+    width: 44vw;
+    height: 80vh;
+    background-color: rgb(0, 0, 0);
+    outline: 6px solid rgb(0, 0, 0);
+    border-radius: 3px;
+}
+.info{
+    width: 8vw;
+    height: 92.8vh;
+    margin-top: -7vh;
+}
+.editor{
+    font-weight: bold;
+    margin: 1vh 29vw 0 2vw;
+}
+.lables{
+    align-items: center;
+    font-weight: bold;
+}
+.run{
+    margin-left: 30vw;
+    margin-top: 1vh;
+}
