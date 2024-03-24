@@ -14,7 +14,7 @@
 }
 .info{
     width: 8vw;
-    height: 92.8vh;
+    height: 95vh;
     margin-top: -7vh;
 }
 .editor{
@@ -26,6 +26,14 @@
     font-weight: bold;
 }
 .run{
-    margin-left: 30vw;
+    margin-left: 25vw;
     margin-top: 1vh;
+}
+.terminal-block{
+    align-items: center;
+    font-weight: bold;
+}
+.font{
+    font-weight: bold;
+    margin-top: 3vh;
 }
