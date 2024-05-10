@@ -4,9 +4,25 @@
 }
 .info{
     width: 8vw;
-    height: 92vh;
+    height: 90vh;
 }
 .output{
-    width: 45vw;
-    height: 80vh;
+    width: 44vw;
+    height: 78vh;
+}
+.panda-image{
+    width: 4vw;
+    height: 7vh;
+    margin-left: 1vw;
+    margin-top: -1.5vh;
+}
+.panda-text{
+    font-size: 1.3rem;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    margin-right: 3vh;
+    /* padding: 1vh; */
 }

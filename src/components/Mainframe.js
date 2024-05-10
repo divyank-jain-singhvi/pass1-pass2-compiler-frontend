@@ -32,6 +32,10 @@ export default function Mainframe() {
     };
 
 
+    const assembly =() => {
+        console.log('assembly')
+    }
+
     // const getoutput = async () =>{
     //     const response=await axios.get('http://localhost:8000/api/')
     //     setoutputs(response.data)
@@ -44,7 +48,9 @@ export default function Mainframe() {
   return (
     <>
         <div className="d-flex">
-        <div className='info ml-2 bg-dark'></div>
+        <div className='info ml-2 bg-dark'>
+        <button type="button" className="btn btn-success run mx-3" onClick={assembly}>Assembly</button>
+        </div>
         <div className='p-2'>
                 <div className="mx-2 py-2">
                 <button type="button" className="btn btn-success run" onClick={SendCode}>Run</button>

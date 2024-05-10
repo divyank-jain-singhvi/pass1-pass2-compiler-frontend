@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
-
+import panda from '../assets/pandas.png'
+import './mainframe.css'
 export default function Navbar() {
   return (
     <>
@@ -10,7 +10,7 @@ export default function Navbar() {
                 <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav">
                     <li className="nav-item">
-                    <Link className="nav-link active text-white" aria-current="page" to="/">Home</Link>
+                    <Link className="nav-link active text-white panda-text" aria-current="page" to="/">Code Panda<img className='panda-image' src={panda} alt="" /></Link>
                     </li>
                 </ul>
                 </div>
