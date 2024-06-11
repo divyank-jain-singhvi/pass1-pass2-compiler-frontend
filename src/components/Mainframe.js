@@ -15,7 +15,7 @@ export default function Mainframe() {
     };
         await axios({
             method: 'post',
-            url: 'http://localhost:8000/api/',
+            url: 'https://pass1-pass2-compiler-backend.onrender.com/api/',
             data: codeBlock,
             headers: {
                 'Content-Type': 'application/json'
@@ -26,7 +26,7 @@ export default function Mainframe() {
         }).catch((error) => {
             console.error("Error:", error);
         });
-        const response=await axios.get('http://localhost:8000/api/')
+        const response=await axios.get('https://pass1-pass2-compiler-backend.onrender.com/api/')
         console.log(response.data)
         setoutputs(response.data)
     };
