@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import panda from '../assets/pandas.png'
-import './mainframe.css'
+import './Mainframe.css'
 export default function Navbar() {
   return (
     <>
